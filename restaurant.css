@@ -1,0 +1,46 @@
+/* Staring body color and padding from sides */
+body {
+    background-color: darkgrey;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* H1, H2 and Paragraph colors*/
+h1 {
+    color: chartreuse;
+}
+
+h2 {
+    color: cornflowerblue;
+}
+
+p {
+    color: blue;
+    width: 800px;
+
+    /* Sizing for all the images*/
+}
+
+img {
+    height: 600px;
+    width: 800px;
+}
+
+/*Set the class for background color after loading*/
+.backgroundColor {
+    background-color: black;
+}
+
+/*Set Id to background grey*/
+#menu {
+    background-color: grey;
+}
+
+/*Give properties to the Unordered list*/
+ul {
+    color: black;
+    background-color: grey;
+    border: 2px solid red;
+    margin-bottom: 20px;
+    font-weight: bold;
+}

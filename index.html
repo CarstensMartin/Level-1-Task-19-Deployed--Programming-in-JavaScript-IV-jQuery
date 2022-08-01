@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--jQuery library imported-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--CSS linked-->
+    <link rel="stylesheet" href="restaurant.css">
+    <!--JavaScript file linked-->
+    <script type="text/javascript" src="restaurant.js"></script>
+    <!--Title of page-->
+    <title>Anywhere Restaurant</title>
+</head>
+
+<body id="body">
+    <!--Button to stop the page moving side to side-->
+    <button id="stopAnimation">Stop Left Right Moving Screen</button>
+    <!--Button to stop the page from changing colors-->
+    <button id="stopColorChange">Stop Color Change</button>
+
+    <div class="bodyMove">
+        <!--Nam of the restaurant as the main heading-->
+        <h1>They Anywhere Restaurant:</h1>
+        <div class="coreBackground">
+            <!--Subheadings 1-->
+            <h2>Our Story</h2>
+            <!--Brief description and picture-->
+            <p id="pOurStory">The Anywhere Restaurant originated with the general problem that everyone always asks -
+                Where
+                do you want to go for breakfast/lunch or dinner? The most frequent answer given is "Anywhere". Thus we
+                are
+                the preferred choice of restaurant.</p>
+            <img src="images/story.jpg" alt="Image of our story">
+        </div>
+
+        <div class="coreBackground">
+            <!--Subheadings 2-->
+            <h2>Our Food</h2>
+            <!--Brief description and picture-->
+            <p id="pOurFood">On each of our categories breakfast, lunch and dinner - even dessert we have a specialized
+                dish
+                with the name, <u>anything</u>. We have a large rango of other meals of your choice.</p>
+            <img src="images/food.jpg" alt="Image of our Food">
+        </div>
+
+        <div class="coreBackground">
+            <!--Subheadings 3-->
+            <h2>Our People</h2>
+            <!--Brief description and picture-->
+            <p id="pOurPeople">Our people are trained to give recommendations on what they think are a preferred option
+                based on basic questions - vegetarian or non vegetarian? Somethings sweet, salty etc questions.</p>
+            <img src="images/ourPeople.jpg" alt="Image of our people">
+        </div>
+
+        <!--Create a menu with a drop down list effect-->
+        <h2>Our Menu</h2>
+        <div id="menu">
+            <!--Divs with Unordered list and List item to show when hovered over-->
+            <div class="menuItems" data-panelId="breakfast">
+                <ul>Breakfast</ul>
+                <li class="breakfast">Eggs</li>
+                <li class="breakfast">Bacon</li>
+            </div>
+
+            <div class="menuItems" data-panelId="lunch">
+                <ul>Lunch</ul>
+                <li class="lunch">Hamburger</li>
+                <li class="lunch">Pizza</li>
+            </div>
+
+
+            <div class="menuItems" data-panelId="dinner">
+                <ul>Dinner</ul>
+                <li class="dinner">Steak</li>
+                <li class="dinner">Pasta</li>
+            </div>
+
+            <div class="menuItems" data-panelId="dessert">
+                <ul>Dessert</ul>
+                <li class="dessert">Ice Cream</li>
+                <li class="dessert">Muffin</li>
+            </div>
+
+            <div class="menuItems" data-panelId="drinks">
+                <ul>Drinks</ul>
+                <li class="drinks">Coke</li>
+                <li class="drinks">Coffee</li>
+            </div>
+        </div>
+
+        <!--Button to let the background move side to side and change background colors-->
+        <button id="background">Change Background Colors & Move Side To Side</button>
+
+        <!--Button to fade out the picture and to fade in the picture-->
+        <button id="fadeOut">Fade below Image Out</button>
+        <button id="fadeIn">Fade below Image In</button>
+
+        <!--Image that are faded out and In-->
+        <div id="fadeImg">
+            <img src="images/foodVariety.jpg" alt="image of food">
+        </div>
+        <br/>
+    </div>
+
+
+</body>
+
+</html>
